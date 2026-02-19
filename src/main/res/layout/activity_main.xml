@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+
+    <ImageView
+        android:id="@+id/gameLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/mindgrid"
+        android:contentDescription="@string/game_logo_desc"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/game_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/player_x_turn"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3">
+
+        <!-- 3x3 Buttons for Tic Tac Toe -->
+        <Button android:layout_width="80dp" android:layout_height="80dp"
+            android:text="" android:textSize="24sp"
+            android:contentDescription="@string/cell_0_0" />
+        <Button android:layout_width="80dp" android:layout_height="80dp"
+            android:text="" android:textSize="24sp"
+            android:contentDescription="@string/cell_0_1" />
+        <Button android:layout_width="80dp" android:layout_height="80dp"
+            android:text="" android:textSize="24sp"
+            android:contentDescription="@string/cell_0_2" />
+
+        <Button android:layout_width="80dp" android:layout_height="80dp"
+            android:text="" android:textSize="24sp"
+            android:contentDescription="@string/cell_1_0" />
+        <Button android:layout_width="80dp" android:layout_height="80dp"
+            android:text="" android:textSize="24sp"
+            android:contentDescription="@string/cell_1_1" />
+        <Button android:layout_width="80dp" android:layout_height="80dp"
+            android:text="" android:textSize="24sp"
+            android:contentDescription="@string/cell_1_2" />
+
+        <Button android:layout_width="80dp" android:layout_height="80dp"
+            android:text="" android:textSize="24sp"
+            android:contentDescription="@string/cell_2_0" />
+        <Button android:layout_width="80dp" android:layout_height="80dp"
+            android:text="" android:textSize="24sp"
+            android:contentDescription="@string/cell_2_1" />
+        <Button android:layout_width="80dp" android:layout_height="80dp"
+            android:text="" android:textSize="24sp"
+            android:contentDescription="@string/cell_2_2" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset_game"
+        android:contentDescription="@string/reset_button_desc"
+        android:layout_marginTop="24dp"
+        android:textColor="#000000" />
+</LinearLayout>

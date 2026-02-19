@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App and Title -->
+    <string name="game_logo_desc">MindGrid logo</string>
+    <string name="app_name">MindGrid</string>
+    <string name="game_title">MindGrid: Tic Tac Toe</string>
+
+    <!-- Status Messages -->
+    <string name="player_x_turn">Player X\'s Turn</string>
+    <string name="player_o_turn">Player O\'s Turn</string>
+    <string name="draw_message">It\'s a draw!</string>
+    <string name="player_x_wins">Player X wins!</string>
+    <string name="player_o_wins">Player O wins!</string>
+
+    <!-- Button Labels -->
+    <string name="reset_game">Reset Game</string>
+    <string name="reset_button_desc">Reset the game board to its initial state</string>
+
+    <!-- Accessibility Descriptions for Game Grid Buttons -->
+    <string name="cell_0_0">Cell at row 1 column 1</string>
+    <string name="cell_0_1">Cell at row 1 column 2</string>
+    <string name="cell_0_2">Cell at row 1 column 3</string>
+    <string name="cell_1_0">Cell at row 2 column 1</string>
+    <string name="cell_1_1">Cell at row 2 column 2</string>
+    <string name="cell_1_2">Cell at row 2 column 3</string>
+    <string name="cell_2_0">Cell at row 3 column 1</string>
+    <string name="cell_2_1">Cell at row 3 column 2</string>
+    <string name="cell_2_2">Cell at row 3 column 3</string>
+</resources>
